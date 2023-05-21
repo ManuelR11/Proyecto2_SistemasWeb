@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-game-boy',
+  selector: 'game-boy',
   templateUrl: './game-boy.component.html',
   styleUrls: ['./game-boy.component.css']
 })
