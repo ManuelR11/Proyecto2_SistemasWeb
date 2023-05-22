@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { GameBOYComponent } from './game-boy/game-boy.component';
+import { SnakeComponent } from './snake/snake.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    GameBOYComponent
+    GameBOYComponent,
+    SnakeComponent
   ],
   imports: [
     BrowserModule
