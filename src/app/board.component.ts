@@ -23,7 +23,8 @@ import { GameService } from './game.service';
 
 @Component({
   selector: 'game-board',
-  templateUrl: 'board.component.html'
+  templateUrl: 'board.component.html',
+  styleUrls: ['./board.components.css']
 })
 export class BoardComponent implements OnInit {
   @ViewChild('board', { static: true })
