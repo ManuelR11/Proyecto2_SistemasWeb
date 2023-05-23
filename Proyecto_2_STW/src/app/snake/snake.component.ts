@@ -3,6 +3,7 @@ import {Food} from "../game-engine/food";
 import {Snake} from "../game-engine/snake";
 import {outsideGrid} from "../game-engine/gameboard-grid.util";
 
+
 @Component({
   selector: 'snake',
   templateUrl: './snake.component.html',
@@ -13,6 +14,7 @@ export class SnakeComponent {
   gameBoard: any;
   snake = new Snake();
   food = new Food(this.snake);
+  BackDisplay = false;
 
 
   lastRenderTime = 0
@@ -81,5 +83,12 @@ export class SnakeComponent {
     }
     return 7;
   }
-
+  
+  restartComponent() {
+    window.location.reload();
+  }
+  BackComponent() {
+    this.BackDisplay = true; // Ocultar el contenido del arcade-display
+  }  
+  
 }

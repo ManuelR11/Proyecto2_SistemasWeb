@@ -23,10 +23,9 @@ export class Food {
     foodElement.style.gridRowStart = this.food.y;
     foodElement.style.gridColumnStart = this.food.x;
     foodElement.classList.add('food');
-    foodElement.style.borderRadius = '50%';
-    foodElement.style.backgroundColor = '#007580';
+    foodElement.style.background = 'url(https://ih1.redbubble.net/image.847662265.7924/flat,750x1000,075,f.u3.jpg)';
+    foodElement.style.backgroundSize = 'cover';
     foodElement.style.transition = 'all .3ms ease-in';
-    foodElement.style.border = '0.25vmin solid black';
     gameBoard.appendChild(foodElement);
   }
 

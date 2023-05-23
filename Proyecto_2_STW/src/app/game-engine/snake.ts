@@ -29,7 +29,7 @@ export class Snake {
       const snakeElement = document.createElement('div');
       snakeElement.style.gridRowStart = segment.y.toString();
       snakeElement.style.gridColumnStart = segment.x.toString();
-      snakeElement.style.backgroundColor = '#fed049';
+      snakeElement.style.backgroundColor = 'white';
       snakeElement.style.border =  '0.25vmin solid black';
       snakeElement.style.transition =  'all .3ms ease-in';
       snakeElement.classList.add('snake');
