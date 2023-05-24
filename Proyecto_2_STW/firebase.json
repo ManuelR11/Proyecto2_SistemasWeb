@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "dist/proyecto-2-stw",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
