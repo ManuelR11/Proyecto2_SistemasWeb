@@ -1,3 +1,9 @@
+@font-face {
+  font-family: 'Early Gameboy';
+  src: url('/assets/fonts/EarlyGameBoy.ttf') format('truetype');
+}
+
+
 .container2 {
   background-image: url("https://wallpaperaccess.com/thumb/1268183.jpg");
   margin: 0;
@@ -24,6 +30,7 @@
   align-items: center;
   flex-direction: column;
   margin-left: 75%;
+  font-family: 'Early Gameboy';
 }
 
 .container2 .score-card .restart-button{
@@ -40,6 +47,7 @@
   margin-bottom: 100%;
   margin-left: 75%;
   z-index: 99;
+  font-family: 'Early Gameboy';
 }
 
 .container2 .game-board {

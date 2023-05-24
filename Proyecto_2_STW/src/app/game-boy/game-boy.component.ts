@@ -12,4 +12,8 @@ export class GameBOYComponent {
   get hideArcadeDisplay(): boolean {
     return this.sharedService.getHideArcadeDisplay();
   }
+
+  get hideArcadeDisplay_1(): boolean {
+    return this.sharedService.getHideArcadeDisplay_1();
+  }
 }

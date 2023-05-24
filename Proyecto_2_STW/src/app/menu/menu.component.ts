@@ -12,4 +12,8 @@ export class MenuComponent {
   navigateToSnake() {
     this.sharedService.setHideArcadeDisplay(true);
   }  
+
+  navigateToTetris() {
+    this.sharedService.setHideArcadeDisplay_1(true);
+  }  
 }

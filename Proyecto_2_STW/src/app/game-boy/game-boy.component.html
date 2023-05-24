@@ -1,11 +1,14 @@
 <div class="arcade-screen">
   <div class="arcade-display">
-    <div class="wallpaper" *ngIf="!hideArcadeDisplay">
+    <div class="wallpaper" *ngIf="!hideArcadeDisplay && !hideArcadeDisplay_1">
       <menu></menu>
     </div> 
     <div class="snake" *ngIf="hideArcadeDisplay"> 
       <snake></snake>
-    </div>       
+    </div>      
+    <div class="tetris" *ngIf="hideArcadeDisplay_1">
+      <tetris></tetris>
+    </div> 
   </div>
   <div class="arcade-controls">
     <div class="cross">
