@@ -1,1 +1,29 @@
-<p>game-boy works!</p>
+<div class="arcade-screen">
+  <div class="arcade-display">
+    <div class="wallpaper" *ngIf="!hideArcadeDisplay && !hideArcadeDisplay_1">
+      <menu></menu>
+    </div> 
+    <div class="snake" *ngIf="hideArcadeDisplay"> 
+      <snake></snake>
+    </div>      
+    <div class="tetris" *ngIf="hideArcadeDisplay_1">
+      <tetris></tetris>
+    </div> 
+  </div>
+  <div class="arcade-controls">
+    <div class="cross">
+      <div class="button_2 up"></div>
+      <div class="button_2 left"></div>
+      <div class="button_2 right"></div>
+      <div class="button_2 down"></div>
+    </div>
+    <div class="cross_1">
+      <div class="button_1 button-up"></div>
+      <div class="button_1 button-left"></div>
+      <div class="button_1 button-right"></div>
+      <div class="button_1 button-down"></div>
+    </div>
+    <div class="button_start"></div>
+    <div class="button_reset"></div>
+  </div>
+</div>

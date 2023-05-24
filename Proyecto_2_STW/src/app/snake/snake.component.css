@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Early Gameboy';
+  src: url('/assets/fonts/EarlyGameBoy.ttf') format('truetype');
+}
+
+
+.container2 {
+  background-image: url("https://wallpaperaccess.com/thumb/1268183.jpg");
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.container2 .score-card {
+  padding: 20px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container2 .score-card .score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 75%;
+  font-family: 'Early Gameboy';
+}
+
+.container2 .score-card .restart-button{
+  padding: 10px 20px;
+  color: black !important;
+  border-radius: 20px;
+  height: 40px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  margin-bottom: 100%;
+  margin-left: 75%;
+  z-index: 99;
+  font-family: 'Early Gameboy';
+}
+
+.container2 .game-board {
+  margin-left: 25%;
+  border-radius: 5px;
+  border: white solid 2px;
+  width: 85vmin;
+  height: 73vmin;
+  display: grid;
+  align-self: center;
+  grid-template-rows: repeat(21, 1fr);
+  grid-template-columns: repeat(21, 1fr);
+}
+
+
+.game-over{
+  margin-left: 15%;
+  color:white;
+}
+
+

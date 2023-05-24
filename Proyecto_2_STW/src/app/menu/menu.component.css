@@ -1,0 +1,55 @@
+@font-face {
+    font-family: 'Early Gameboy';
+    src: url('/assets/fonts/EarlyGameBoy.ttf') format('truetype');
+  }
+
+
+img {
+    max-width: 80%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.frame1 {
+    text-align: center;
+    margin: auto;
+    z-index: 10;
+    margin-top: 5%;
+}
+
+
+.arcade-select {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.arcade-button {
+    width: 30vw;
+    height: 5vh;
+    max-width: 200px;
+    background-color: #000;
+    color: #ff0069;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #a3008c;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Early Gameboy';
+    text-shadow: 0 0 10px #ff0069, 0 0 20px #ff0069, 0 0 30px #ff0069;
+}
+
+
+.arcade-button:hover {
+    background-color: #ff0069;
+    color: #000;
+    text-shadow: none;
+}
+
+.arcade-button:active {
+    background-color: #f0f;
+}
