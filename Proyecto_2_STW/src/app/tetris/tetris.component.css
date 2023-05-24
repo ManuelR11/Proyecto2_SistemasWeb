@@ -23,7 +23,28 @@
     font-family: 'Early Gameboy';
     color: white;
   }
+  .menu-button{
+    width: 30vw;
+    height: 5vh;
+    max-width: 200px;
+    background-color: #000;
+    color: #ff0069;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid #a3008c;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    font-family: 'Early Gameboy';
+    text-shadow: 0 0 10px #ff0069, 0 0 20px #ff0069, 0 0 30px #ff0069;
+  }
 
+  .menu-button:hover {
+    background-color: #ff0069;
+    color: #000;
+    text-shadow: none;
+  }
   .play-button{
     width: 30vw;
     height: 5vh;
@@ -90,3 +111,4 @@
     color: #000;
     text-shadow: none;
   }
+
