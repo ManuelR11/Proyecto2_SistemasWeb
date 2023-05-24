@@ -310,4 +310,9 @@ export class TetrisComponent implements OnInit {
   getEmptyBoard(): number[][] {
     return Array.from({ length: ROWS }, () => Array(COLS).fill(0));
 }
+
+
+  restartComponent() {
+    window.location.reload();
+  }
 }

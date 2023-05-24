@@ -35,20 +35,34 @@
 
 .container2 .score-card .restart-button{
   padding: 10px 20px;
-  color: black !important;
   border-radius: 20px;
   height: 40px;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
   cursor: pointer;
   margin-bottom: 100%;
   margin-left: 75%;
   z-index: 99;
   font-family: 'Early Gameboy';
 }
+ .restart-button{
+  width: 30vw;
+  height: 5vh;
+  max-width: 200px;
+  background-color: #000;
+  color: #ff0069;
+  font-size: 20px;
+  font-weight: bold;
+  border: 2px solid #a3008c;
+  border-radius: 50px;
+  margin: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: 'Early Gameboy';
+  text-shadow: 0 0 10px #ff0069, 0 0 20px #ff0069, 0 0 30px #ff0069;
+ }
 
 .container2 .game-board {
   margin-left: 25%;
@@ -68,4 +82,6 @@
   color:white;
 }
 
-
+.menu-button{
+  margin-right: 100px;
+}
