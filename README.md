@@ -5,10 +5,9 @@ Este proyecto incluye dos juegos clásicos de arcade: Tetris y Snake. Ambos jueg
 3. Correr `npm install` para instalar dependencias.<br />
 4. Correr `ng serve` para ver la página.
 ## Requisitos previos
-Angular CLI: Ejecuta el siguiente comando en tu terminal para instalarlo:
-1. Clonar repositorio `https://github.com/DiegoValdez10/Proyecto-1-STW`
+1. Clonar repositorio `https://github.com/ManuelR11/Proyecto2_SistemasWeb`
 2. Moverse al directorio: `cd Proyecto_2_STW`.<br />
-3. `npm install -g @angular/cli`
+3. Correr `npm install -g @angular/cli` en la terminal para instalar Angular Cli
 4. Correr `npm install` para instalar dependencias.<br />
 5. Correr `ng serve` para inicializar el código
 6. Abre tu navegador web y visita la siguiente URL: `http://localhost:4200`
