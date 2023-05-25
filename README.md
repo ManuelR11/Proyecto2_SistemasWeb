@@ -42,11 +42,10 @@ La estructura del proyecto esta realizada de la siguiente manera:
     #### Codigo De Ejemplo
     
       ```export function outsideGrid(position: any) {
-  return (
-    position.x < 1 || position.x > GRID_SIZE ||
-    position.y < 1 || position.y > GRID_SIZE
-  )
-} 
+```  return (
+``````    position.x < 1 || position.x > GRID_SIZE ||
+ ```   position.y < 1 || position.y > GRID_SIZE
+```
 ### Menu
   Menu es el componente donde se hace la navegación desde el menu principal a los diferentes juegos
   
