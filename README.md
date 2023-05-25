@@ -14,8 +14,29 @@ Este proyecto incluye dos juegos clásicos de arcade: Tetris y Snake. Ambos jueg
 ## Link de Firebase:
 
 https://proyecto-2-stw.web.app/app
+## Estructura
+La estructura del proyecto esta realizada de la siguiente manera:
+-src
+  - app
+    - Game-boy
+    - game-engine
+    - menu
+    - snake
+    - Tetris
+### Game-Boy
+  Game boy es el componente en el cual se creó el fondo del proyecto es decir el espacio donde los dos juegos y toda la aplicación fue desarrollada
+### Game-engine
+  Game-engine es el componente utilizado en el juego de snake donde se encuentra el funcionamiento lógico del juego de snake
+### Menu
+  Menu es el componente donde se hace la navegación desde el menu principal a los diferentes juegos
+  
+### Snake
+En el componente de Snake se controla el comportamiento del juego de la serpiente.
 
-Codigo de Ejemplo:
+### Tetris
+En el componente de Tetris se encuentra la creación del juego de tetris y la lógica de este mismo
+  - Assets
+## Codigo de Ejemplo:
 ```
   checkDeath() {
     this.gameOver = outsideGrid(this.snake.getSnakeHead()) || this.snake.snakeIntersection();
