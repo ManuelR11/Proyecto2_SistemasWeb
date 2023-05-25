@@ -16,6 +16,7 @@ Este proyecto incluye dos juegos clásicos de arcade: Tetris y Snake. Ambos jueg
 https://proyecto-2-stw.web.app/app
 ## Estructura
 La estructura del proyecto esta realizada de la siguiente manera:
+
 -src
   - app
     - Game-boy
@@ -23,6 +24,7 @@ La estructura del proyecto esta realizada de la siguiente manera:
     - menu
     - snake
     - Tetris
+  - Assets
 ### Game-Boy
   Game boy es el componente en el cual se creó el fondo del proyecto es decir el espacio donde los dos juegos y toda la aplicación fue desarrollada
 ### Game-engine
