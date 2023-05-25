@@ -23,23 +23,67 @@ La estructura del proyecto esta realizada de la siguiente manera:
   - Assets
 ### Game-Boy
   Game boy es el componente en el cual se creó el fondo del proyecto es decir el espacio donde los dos juegos y toda la aplicación fue desarrollada
+  #### Codigo De Ejemplo
+  ```.arcade-screen {
+    background-image: linear-gradient(to bottom,#a83386, #4a2a6e);
+    max-width: 100%;
+    height: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 10px solid rgb(19, 6, 16);
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 0 0 25px black;
+  } 
+  ```
 ### Game-engine
   Game-engine es el componente utilizado en el juego de snake donde se encuentra el funcionamiento lógico del juego de snake
+    #### Codigo De Ejemplo
+      ```export function outsideGrid(position: any) {
+  return (
+    position.x < 1 || position.x > GRID_SIZE ||
+    position.y < 1 || position.y > GRID_SIZE
+  )
+}  ```
 ### Menu
   Menu es el componente donde se hace la navegación desde el menu principal a los diferentes juegos
+    #### Codigo De Ejemplo
+      ```<div class="frame1"> 
+    <img src="https://www.logolynx.com/images/logolynx/7f/7fe85fb6677eaf8d18c3511c3fcaad79.png">
+  </div> 
+  <div class="arcade-select">
+    <button class="arcade-button" (click)="navigateToSnake()">Snake</button>
+    <button class="arcade-button" (click)="navigateToTetris() ">Tetris</button>
+  </div>  ```
   
 ### Snake
 En el componente de Snake se controla el comportamiento del juego de la serpiente.
-
-### Tetris
-En el componente de Tetris se encuentra la creación del juego de tetris y la lógica de este mismo
-  - Assets
-## Codigo de Ejemplo:
-```
-  checkDeath() {
+  #### Codigo De Ejemplo
+    ```  checkDeath() {
     this.gameOver = outsideGrid(this.snake.getSnakeHead()) || this.snake.snakeIntersection();
     if (!this.gameOver) {
       return;
     }
     this.gameBoard.classList.add('blur');
   }
+
+### Tetris
+En el componente de Tetris se encuentra la creación del juego de tetris y la lógica de este mismo
+  #### Codigo De Ejemplo
+    ``` <div class="button-container">
+            <button
+                (click)="play()"
+                class="play-button"
+                *ngIf="!gameStarted"
+            >
+                Play
+            </button>
+            <button
+                (click)="gameOver()"
+                class="reset-button"
+                *ngIf="gameStarted"
+            >  ```
+  - Assets
+
+
