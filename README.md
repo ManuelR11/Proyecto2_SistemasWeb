@@ -48,15 +48,14 @@ La estructura del proyecto esta realizada de la siguiente manera:
 }  ```
 ### Menu
   Menu es el componente donde se hace la navegación desde el menu principal a los diferentes juegos
-    #### Codigo De Ejemplo
-      ```<div class="frame1"> 
-    <img src="https://www.logolynx.com/images/logolynx/7f/7fe85fb6677eaf8d18c3511c3fcaad79.png">
-  </div> 
+  
+  
+```  </div> 
   <div class="arcade-select">
     <button class="arcade-button" (click)="navigateToSnake()">Snake</button>
     <button class="arcade-button" (click)="navigateToTetris() ">Tetris</button>
-  </div>  ```
-  
+  </div>  
+  ```
 ### Snake
 En el componente de Snake se controla el comportamiento del juego de la serpiente.
   #### Codigo De Ejemplo
