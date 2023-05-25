@@ -7,6 +7,9 @@ Este proyecto incluye dos juegos clásicos de arcade: Tetris y Snake. Ambos jueg
 4. Correr `npm install` para instalar dependencias.<br />
 5. Correr `ng serve` para inicializar el código
 6. Abre tu navegador web y visita la siguiente URL: `http://localhost:4200`
+
+## Para la carrera de ciencias de la computación:
+Este proyecto puedes ser usado en la carrera de ciencias de la computación en el apartado de desarrollo de videojuegos, ya que estos juegos pueden servir como proyecto inicial si quieres empezar en el ambiente de desarrollos de videojuegos, ya que se trabajo lógica en los videojuegos, diseño de de videojuegos y jugabilidad. Para futuros desarrolladores de videojuegos este proyecto puede ser una bena manera de entrar en este mundo.
 ## Link de Firebase:
 
 https://proyecto-2-stw.web.app/app
