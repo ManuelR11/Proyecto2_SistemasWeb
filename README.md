@@ -15,7 +15,8 @@ Este proyecto puedes ser usado en la carrera de ciencias de la computación en e
 https://proyecto-2-stw.web.app/app
 ## Estructura
 La estructura del proyecto esta realizada de la siguiente manera:
-
+## Link a Manual de Uso:
+https://docs.google.com/document/d/1XeUU4dvirKRx_5-YqefBiExBOm707Te7x0xnydU8E6k/edit?usp=sharing
 -src
   - app
     - Game-boy
