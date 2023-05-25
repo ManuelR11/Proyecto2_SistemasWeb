@@ -24,4 +24,4 @@ Codigo de Ejemplo:
       return;
     }
     this.gameBoard.classList.add('blur');
-  }```
+  }
