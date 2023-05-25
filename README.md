@@ -41,9 +41,8 @@ La estructura del proyecto esta realizada de la siguiente manera:
   Game-engine es el componente utilizado en el juego de snake donde se encuentra el funcionamiento lógico del juego de snake
     #### Codigo De Ejemplo
     
-      ```export function outsideGrid(position: any) {
-```  return (
-``````    position.x < 1 || position.x > GRID_SIZE ||
+      export function outsideGrid(position: any) {
+  `    position.x < 1 || position.x > GRID_SIZE ||
  ```   position.y < 1 || position.y > GRID_SIZE
 ```
 ### Menu
